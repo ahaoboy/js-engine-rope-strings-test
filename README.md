@@ -1,114 +1,114 @@
 
 ## test
-9/29/2025, 4:01:15 AM
+9/29/2025, 4:08:32 AM
 
 ### ubuntu
 | Engine | array | loop |
 | --- | --- | --- |
-| bun | 0 | 1 |
-| node | 1 | 0 |
-| deno | 1 | 1 |
-| graaljs | 3 | 3 |
+| bun | 1 | 2 |
+| node | 2 | 8 |
+| deno | 2 | 8 |
+| graaljs | 30 | 29 |
 | hermes |  |  |
-| llrt | 1 | 2 |
-| txiki.js | 1 | 1 |
-| quickjs | 1 | 2 |
-| quickjs-ng | 1 | 51 |
-| mujs |  |  |
-| mujs-pgo |  |  |
+| llrt | 8 | 128 |
+| txiki.js | 9 | 112 |
+| quickjs | 10 | 13 |
+| quickjs-ng | 11 | 1966 |
+| mujs | 27 | 899 |
+| mujs-pgo | 22 | 916 |
 | mujs-one |  |  |
 | xst |  |  |
 | JavaScriptCore |  |  |
-| v8 | 0 | 4 |
-| spidermonkey | 1 | 1 |
+| v8 | 3 | 7 |
+| spidermonkey | 2 | 4 |
 | JerryScript |  |  |
-| primjs | 1 | 2 |
-| rquickjs | 1 | 2 |
-| rquickjs-pgo | 2 | 2 |
-| ChakraCore | 2 | 1 |
-| duktape | 3 | 22 |
+| primjs | 9 | 12 |
+| rquickjs | 12 | 156 |
+| rquickjs-pgo | 12 | 155 |
+| ChakraCore | 3 | 7 |
+| duktape | 32 | 1741 |
 | nova |  |  |
-| boa | 13 | 13 |
+| boa | 109 | 240 |
 | engine262 | [object Object] | [object Object] |
-| ladybird | 1 | 1 |
+| ladybird | 10 | 10 |
 | goja |  |  |
-| kiesel | 11 | 45 |
+| kiesel | 108 | 3152 |
 | mozjs |  |  |
-| jint | 37 | 23 |
-| dune | [33m1[0m | [33m0[0m |
+| jint | 89 | 62 |
+| dune | [33m3[0m | [33m8[0m |
 | jjs |  |  |
 | rhino |  |  |
-| njs | 0 | 25 |
-| ringo | 25 | 21 |
-| lo | 0 | 1 |
-| spiderfire | 0 | 0 |
+| njs | 4 | 1910 |
+| ringo | 145 | 68 |
+| lo | 2 | 6 |
+| spiderfire | 1 | 5 |
 | hako |  |  |
-| quickjs-emscripten | 15 | 34 |
+| quickjs-emscripten | 55 | 1854 |
 ### macos-arm64
 | Engine | array | loop |
 | --- | --- | --- |
-| bun | 1 | 3 |
-| node | 1 | 0 |
-| deno | 5 | 0 |
-| graaljs | 6 | 2 |
+| bun | 3 | 2 |
+| node | 2 | 11 |
+| deno | 6 | 10 |
+| graaljs | 26 | 21 |
 | hermes |  |  |
-| llrt | 1 | 1 |
-| txiki.js | 0 | 1 |
-| quickjs | 1 | 1 |
-| quickjs-ng | 1 | 1 |
-| mujs |  |  |
+| llrt | 8 | 298 |
+| txiki.js | 5 | 150 |
+| quickjs | 6 | 15 |
+| quickjs-ng | 5 | 174 |
+| mujs | 17 | 1296 |
 | xst |  |  |
 | JavaScriptCore |  |  |
-| v8 | 8 | 8 |
-| spidermonkey | 6 | 1 |
+| v8 | 8 | 9 |
+| spidermonkey | 6 | 4 |
 | JerryScript |  |  |
-| primjs | 1 | 1 |
-| rquickjs | 1 | 1 |
-| duktape | 2 | 11 |
+| primjs | 6 | 5 |
+| rquickjs | 8 | 150 |
+| duktape | 20 | 945 |
 | nova |  |  |
 | engine262 | [object Object] | [object Object] |
-| ladybird | 1 | 0 |
+| ladybird | 7 | 5 |
 | goja |  |  |
-| kiesel | 7 | 55 |
+| kiesel | 72 | 2170 |
 | mozjs |  |  |
-| jint | 24 | 16 |
-| dune | [33m6[0m | [33m1[0m |
+| jint | 72 | 58 |
+| dune | [33m6[0m | [33m9[0m |
 | jjs |  |  |
 | rhino |  |  |
-| njs | 0 | 8 |
-| ringo | 23 | 17 |
-| spiderfire | 4 | 1 |
-| hako | 18 | 18 |
-| quickjs-emscripten | 4 | 40 |
+| njs | 3 | 1643 |
+| ringo | 146 | 42 |
+| spiderfire | 4 | 4 |
+| hako | 200 | 185 |
+| quickjs-emscripten | 24 | 1786 |
 ### windows
 | Engine | array | loop |
 | --- | --- | --- |
-| bun | 1 | 1 |
-| node | 1 | 0 |
-| deno | 1 | 0 |
-| graaljs | 4 | 6 |
+| bun | 3 | 5 |
+| node | 3 | 10 |
+| deno | 4 | 11 |
+| graaljs | 38 | 29 |
 | hermes |  |  |
-| llrt | 1 | 2 |
-| txiki.js | 1 | 2 |
-| quickjs | 1 | 3 |
-| quickjs-ng | 2 | 3 |
-| mujs |  |  |
-| mujs-pgo |  |  |
+| llrt | 15 | 388 |
+| txiki.js | 15 | 121 |
+| quickjs | 16 | 30 |
+| quickjs-ng | 17 | 150 |
+| mujs | 30 | 4289 |
+| mujs-pgo | 26 | 4222 |
 | xst |  |  |
 | JavaScriptCore |  |  |
-| v8 | 1 | 1 |
-| spidermonkey | 2 | 1 |
-| rquickjs | 2 | 4 |
-| rquickjs-pgo | 2 | 4 |
-| ChakraCore | 3 | 2 |
-| duktape | 6 | 12 |
+| v8 | 3 | 7 |
+| spidermonkey | 3 | 3 |
+| rquickjs | 18 | 140 |
+| rquickjs-pgo | 18 | 145 |
+| ChakraCore | 3 | 7 |
+| duktape | 46 | 432 |
 | nova |  |  |
-| boa | 12 | 17 |
+| boa | 118 | 239 |
 | engine262 | [object Object] | [object Object] |
 | goja |  |  |
-| kiesel | 12 | 86 |
-| jint | 43 | 34 |
-| dune | [33m2[0m | [33m0[0m |
+| kiesel | 129 | 5343 |
+| jint | 133 | 91 |
+| dune | [33m3[0m | [33m11[0m |
 | rhino |  |  |
-| spiderfire | 1 | 3 |
-| quickjs-emscripten | 12 | 37 |
+| spiderfire | 2 | 4 |
+| quickjs-emscripten | 35 | 2010 |
