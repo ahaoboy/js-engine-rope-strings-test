@@ -33,7 +33,7 @@ jobs:
     name: bench-${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: ahaoboy/js-engine-setup@v4
+      - uses: ahaoboy/js-engine-setup@v1
 
       - name: run
         run: |
